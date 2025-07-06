@@ -1,0 +1,10 @@
+D:
+
+cd D:\COMPILED_WINDOWS\OptiXDenoiser
+
+rmdir /s /q build
+mkdir build
+cd build
+cmake .. -G "Visual Studio 17 2022" -A x64 -DNUKE_VERSION=16.0v4 -DCMAKE_INSTALL_PREFIX=%USERPROFILE%\.nuke
+cmake --build . --config Release --verbose
+cmake --install . --config Release --verbose
