@@ -30,8 +30,8 @@ A GPU-accelerated AI denoising plugin for [Foundry's Nuke](https://www.foundry.c
 | 15.1         | ✅    | ✅      |
 | 15.2         | ✅    | ✅      |
 | 16.0         | ✅    | ✅      |
-| 16.1         | ✅    | —       |
-| 17.0         | ✅    | —       |
+| 16.1         | ✅    | ✅      |
+| 17.0         | ✅    | ✅      |
 
 ---
 
