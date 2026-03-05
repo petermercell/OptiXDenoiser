@@ -1,0 +1,14 @@
+
+
+export PATH=/usr/local/cuda-13.1/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-13.1/lib64:$LD_LIBRARY_PATH
+
+rm -rf build && mkdir build && cd build
+
+cmake ..
+
+make -j$(nproc)
+
+
+ldd ./OptiXDenoiser.so
+
